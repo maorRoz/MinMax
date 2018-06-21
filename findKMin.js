@@ -17,7 +17,7 @@ function getKMax(array,k){
     return minHeap.extractMin();
 }
 
-let array = [0,0,9,4,6,1]
+let array = [0,0,9,4,6,1];
 let kMax =  getKMax(array,3);
 console.log(kMax);
 
