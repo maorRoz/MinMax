@@ -42,10 +42,10 @@ function printTree(tree){
         }
         console.log(printString);
         if(tree.left !== null){
-            printTree(tree.left)
+            printTree(tree.left);
         }
         if(tree.right !== null){
-            printTree(tree.right)
+            printTree(tree.right);
         }
 }
 let array = [3,5,5,4,9,8,9,13,10];
