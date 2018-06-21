@@ -31,7 +31,6 @@ function makeNode(number,node){
     }
     return node;
 }
-////
 
 function printTree(tree){
         printString = "Data : "+ tree.data;
